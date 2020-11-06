@@ -18,18 +18,6 @@ p {
     color: black;
 }
 
-/* CSS side-by-side alignment */
-.row {
-    display: flex;
-}
-  
-.column {
-    flex: 33.33%;
-    padding: 5px;
-    border: solid green;
-    margin: 10px 5px;
-}
-
 /*
 CSS box model:
     width/height: space with the content inside the box
