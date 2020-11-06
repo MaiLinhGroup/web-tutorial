@@ -1,0 +1,54 @@
+/* This is a CSS comment */ 
+a[href^="https"]::before {
+    content: "🔗 ";
+}
+
+li {
+    margin-bottom: .5rem;
+}
+
+body {
+    background-color: aquamarine;
+    color: darkred;
+    font-size: 21px;
+}
+
+h1 {
+    font-size: 70px;
+    color: blueviolet;
+}
+
+p {
+    color: black;
+}
+
+/* CSS side-by-side alignment */
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+    border: solid green;
+    margin: 10px 5px;
+}
+
+/*
+CSS box model:
+    width/height: space with the content inside the box
+    padding: empty space inside the box with the background
+    border: border/stroke around the box
+    margin: empty space outside around the box
+
+    Note: the true dimension/size of the box is calculated by 
+    adding width/height, padding, border and margin all together
+*/
+.box {
+    background: pink;
+    width: 300px; /* height: 96px*/
+
+    padding: 100px 25px 200px; /* top right&left bottom */
+    border: 10px solid red;
+    margin: 100px; /* top&right&bottom&left */
+}
